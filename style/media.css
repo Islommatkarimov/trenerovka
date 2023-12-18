@@ -1,0 +1,394 @@
+@media (max-width: 1400px) {
+    .container {
+        max-width: 1140px;
+    }
+
+    .intro_content img {
+        width: 500px;
+        object-fit: cover;
+    }
+
+    .intro_block {
+        width: 500px;
+    }
+
+    .read_cards img {
+        width: 320px;
+        object-fit: cover;
+    }
+}
+
+@media (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+
+    .intro_content img,
+    .intro_block {
+        width: 400px;
+    }
+
+    .intro_title {
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    .workout_title,
+    .home_title {
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+    .workout_inside {
+        padding: 14px;
+    }
+
+    .benefit_title {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .read_cards img {
+        width: 280px;
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
+
+    .intro_content {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .intro_title {
+        margin: 10px 0 30px;
+    }
+
+    .section_title {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .fit_card-title {
+        font-size: 25px;
+        line-height: 30px;
+        margin: 30px auto 15px;
+    }
+
+    .fit_card img {
+        width: 100%;
+    }
+
+    .fit_cards {
+        align-items: flex-start;
+    }
+
+    .workouts_inside-title {
+        font-size: 20px;
+        line-height: 22px;
+    }
+
+    .benefit_content {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .read_cards {
+        flex-wrap: wrap;
+        gap: 30px;
+        justify-content: center;
+    }
+
+    .social_content {
+        flex-wrap: wrap;
+        gap: 30px;
+        justify-content: center;
+    }
+
+    .social_link {
+        width: 35%;
+    }
+
+    .home_title {
+        width: auto;
+    }
+
+    .fit,
+    .workouts,
+    .home,
+    .benefit,
+    .read {
+        padding: 80px 0;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 540px;
+    }
+
+    .nav_logo {
+        display: none;
+    }
+
+    .fit_block,
+    .home_text {
+        width: auto;
+    }
+
+    .fit,
+    .workouts,
+    .home,
+    .benefit,
+    .read {
+        padding: 50px 0;
+    }
+
+    .fit_block {
+        gap: 30px;
+    }
+
+    .fit_cards,
+    .workouts_cards {
+        margin-top: 50px;
+    }
+
+    .workouts_cards {
+        flex-wrap: wrap;
+        gap: 30px;
+        justify-content: center;
+    }
+
+    .workouts_card {
+        width: 40%;
+    }
+
+    .social {
+        padding: 50px 0;
+        margin-bottom: 50px;
+    }
+
+    .footer_content {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .footer_card {
+        width: max-content;
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        max-width: 100%;
+    }
+
+    .nav {
+        justify-content: center;
+    }
+
+    .intro {
+        padding: 40px 0;
+    }
+
+    .section_btn {
+        padding: 10px;
+    }
+
+    .list {
+        gap: 20px;
+    }
+
+    li:nth-of-type(5) {
+        display: none;
+    }
+
+    .intro_title {
+        font-size: 30px;
+        line-height: 30px;
+        margin: 10px 0 20px;
+    }
+
+    .line_text {
+        font-size: 12px;
+    }
+
+    .line_title {
+        font-size: 22px;
+        margin-bottom: 0px;
+    }
+
+    .line {
+        padding: 30px 0;
+    }
+
+    .section_title {
+        font-size: 26px;
+        line-height: 35px;
+    }
+
+    .fit_card,
+    .workouts_card {
+        width: 90%;
+    }
+
+    .fit_cards {
+        grid-gap: 70px;
+    }
+
+    .workout_title,
+    .home_title,
+    .benefit_title {
+        font-size: 35px;
+        line-height: 40px;
+    }
+
+    .workout_text,
+    .benefit_text {
+        line-height: 25px;
+    }
+
+    .workouts_inside-btn {
+        line-height: normal;
+    }
+
+    .benefit_images {
+        max-width: 100%;
+    }
+
+    .read_text {
+        line-height: 25px;
+        margin: 20px 0;
+    }
+
+    .read_cards {
+        margin-top: 50px;
+    }
+
+    .social_link {
+        width: 50%;
+    }
+
+    .footer_pay {
+        flex-wrap: wrap;
+        gap: 30px;
+        margin-top: 30px;
+    }
+
+    .footer_img {
+        width: 20%;
+    }
+
+    .footer {
+        padding: 50px 0;
+    }
+}
+
+@media (max-width: 450px) {
+    .section_btn {
+        font-size: 12px;
+        padding: 10px;
+    }
+
+    .list {
+        gap: 15px;
+    }
+
+    .list_link {
+        font-size: 16px;
+    }
+
+    .section_btn svg {
+        display: none;
+    }
+
+    .intro_content img,
+    .intro_block {
+        width: 350px;
+    }
+
+    .fit,
+    .workouts,
+    .home,
+    .benefit,
+    .read,
+    .social {
+        padding: 30px 0;
+    }
+
+    .workout_title,
+    .home_title,
+    .benefit_title {
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    .social_link {
+        font-size: 20px;
+    }
+
+    .social_link svg {
+        width: 30px;
+    }
+
+    .social_content {
+        gap: 10px;
+    }
+}
+
+@media (max-width: 400px) {
+    li:nth-of-type(4) {
+        display: none;
+    }
+
+    .intro {
+        padding: 20px 0;
+    }
+
+    .intro_content img,
+    .intro_block {
+        width: 280px;
+    }
+
+    .intro_title {
+        font-size: 25px;
+        margin: 10px 0 10px;
+    }
+
+    .line_content {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .fit,
+    .workouts,
+    .home,
+    .benefit,
+    .read,
+    .social {
+        padding: 20px 0;
+    }
+
+    .social_content {
+        gap: 1px;
+    }
+
+    .workout_title,
+    .home_title,
+    .benefit_title {
+        font-size: 25px;
+    }
+
+    .home_text {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .workouts_item-free {
+        font-size: 14px;
+    }
+}
